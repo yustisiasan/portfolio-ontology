@@ -1,0 +1,15 @@
+ for(int j=0;j<negatPecahNew1.size();j++){
+                            for (String neg1 : neg) {
+                                String a = "tidak_" + neg1;
+                                String b = ".+tidak_" + neg1;
+                                String c = "tidak_" +".+"+ neg1;
+                                if(negatPecahNew1.get(j).matches(c)||negatPecahNew1.get(j).matches(a) || negatPecahNew1.get(j).matches(b)){
+                                    positPecahNew1.add(negatPecahNew1.get(j));
+                                    positKelasNew1.add(negatKelasNew1.get(j));
+                                    negatPecahNew1.remove(negatPecahNew1.get(j));
+                                    negatKelasNew1.remove(negatKelasNew1.get(j));
+                                    break;
+                                }
+                            
+                            }
+                        } 

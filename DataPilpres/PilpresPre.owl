@@ -1,0 +1,4593 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2019/4/PilpresPre"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/acer/ontologies/2019/4/PilpresPre">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AspekPaslon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integritas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kompetensi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negatif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RepresentasiSosial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentimen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PolarityBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PolarityIs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ada_untuk_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adil_makmur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#akrab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amanah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ambisius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antek_asing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antek_cina"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anti_islam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anti_kebhinekaan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anti_pancasila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#apbn_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#banyak_berjanji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#banyak_kebohongan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#banyak_prestasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bapak_pembangunan_indonesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bawa_aspirasi_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beban_hutang_jadi_banyak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#belum_terselesaikan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berakhlak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berani_memimpin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berantas_narkoba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beras_import"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berbelas_kasihan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berdasarkan_data"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berenergi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berhasil_mendidik_anak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beri_bukti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beri_bukti_bukan_janji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berideologi_pancasila"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berintegritas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berita_bohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berkarakter_kuat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berkelas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bermoral"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berpengalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berpengalaman_nambah_hutang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berpotensi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berprestasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bersahabat_dengan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bersahaja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bersalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bersyukur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bertegur_sapa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#berwibawa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bijaksana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bikin_nyaman_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bisa_kerja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bpjs_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cerdas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cerdik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cinta_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cintanya_menyebar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#citra_yang_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dekat_dengan_siapapun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#demi_nkri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dengan_dengan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dengan_hati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deradikalisasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#didikte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dirasakan_langsung_manfaatnya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dirubung_bukti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#diskriminasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#distribusi_antar_pulau_belum_digarap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dobol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dungu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dusta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dzolim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ekonomi_kuat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ekonomi_menguasai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emosi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#emosional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#garam_import"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#garang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#garis_kemiskinan_terendah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gdp_naik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#giat_membangun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#goblok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#grasa_grusu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hadir_di_tengah_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hanya_boneka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hanya_janji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hanya_meneruskan_program"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#harapan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#harga_bbm_naik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#harga_tidak_terjangkau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#harga_tiket_naik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hasil_kerja_bagus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hati_mulia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hebat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hobi_janji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hutang_besar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hutang_negara_banyak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ibadah_haji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ikhlas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#indonesia_diakui_dunia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#indonesia_jadi_makin_maju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#indonesia_maju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#indonesia_makin_sejahtera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#industri_berkembang_maju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#industri_indonesia_maju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#infastruktur_sampai_keseluruh_pelosok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#infrastruktur_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ingat_pada_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#isis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#islami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jakarta_belum_tuntas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jalur_semua_segi_berjalan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#janji_palsu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#janji_tidak_dipenuhi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#janji_tidak_ditepati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jauh_dari_inflasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jauh_dari_kemewahan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jelas_islamnya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jelas_keluarganya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jelas_kinerjanya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jelas_pengalamannya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jual_agama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#juara_korupsi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jujur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kabinet_korup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kafir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kalangan_biasa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kampanye_hoax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keadaan_ekonomi_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keadilan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kejujuran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kenaikan_rupiah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kenal_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kepentingan_rakyat_diatas_kepentingan_priibadi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kepo_kebutuhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keputusan_bisa_dipercaya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keputusan_kontroversial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keren"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kerja_inisiatif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kerja_keras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kerja_lebih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kerja_nyata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kerja_terbukti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kerusakan_pada_nkri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kesederhanaan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kesejahteraan_masyarakat_meningkat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kesejahteraan_petani_meningkat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kinerja_menarik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kinerja_nyata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kkn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#konsisten"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#korupsi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#koruptor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#labil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#layak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#layak_memimpin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lembut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#logis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lugu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#makassar_jadi_keren"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mampu_mengurangi_kemiskinan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mantul_prestasinya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mau_bersalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#melayani_publik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#melayani_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#melindungi_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#melukai_perasaan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memahami_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membahayakan_keamanan_nasional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membangun_indonesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membangun_integritas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membangun_jalan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membangun_papua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membangun_silaturahmi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membaur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memberi_solusi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memberikan_kepuasaan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memenuhi_janji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memikirkan_kepentingan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memiliki_misi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memiliki_visi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memimpin_dari_bawah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memimpin_indonesia_keseluruhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memperhatikan_nasib_petani"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memperhatikan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memposisikan_diri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memuliakan_ulama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menakuti_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menambah_terminal_bandara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mencla_mencle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menculik_aktivis98"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mendengar_keinginan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mendengar_keluh_kesah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mendengarkan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengancam_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menganut_adab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengayomi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengembalikan_aset_negara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengenali_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengerti_keinginan_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengintimidasi_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mengkokohkan_fundamental"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menipu_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menjadi_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menjaga_budaya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menjaga_persatuan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menjual_aset_negara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mensejahterakan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menutup_mata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menyasar_koruptor_kelas_kakap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menyenangkan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menyuarakan_masyarakat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#merakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#merealisasikan_kebutuhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#merendahkan_martabat_nkri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#milenial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mudah_percaya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#negarawan_sejati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ngeles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nggedebrus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#olahraga_maju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#optimis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orang_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pajak_umkm_turun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pandai_membangun_silaturahmi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pandai_memilih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pantang_menyerah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pantas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#panutan_bangsa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patriot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pecatan_tentara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pecinta_negara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peduli_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pekerja_keras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pelaku_pelanggaran_ham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemasangan_listrik_gratis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_desa_jalan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_digeber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_hingga_pelosok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_jalan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_nyata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_rel_ka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_tepat_sasaran"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembangunan_tidak_ada_yang_mangkrak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembebasan_teroris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembelaan_bagi_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pembohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemerataan_pembangunan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemerintahan_tidak_gagal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemimpin_dungu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemimpin_muslim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pemimpin_teladan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pencapaian_kerja_nyata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pencitraan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pencitraan_pemilu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pendendam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pengalaman_luas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pengawasan_lemah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pengen_menang_sendiri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penipu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penjilat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#penyabar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pepesan_kosong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#percaya_diri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perempuan_indonesia_sejahtera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perhatian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perhatian_besar_pada_santri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perhatian_pada_santri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#periode_bikin_kecewa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perkembangan_ekonomi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pesimisme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#php"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pilih_pilih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#planga_plongo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#plin_plan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#presiden_gagal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#presiden_terbaik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#presiden_yang_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prestasi_hebat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prestasi_membanggakan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prestasi_sangat_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prestasi_sudah_dicapai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prestasinya_hebat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#produksi_beras_surplus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#program_berhasil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#program_terbukti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#program_terealisasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#program_terlaksana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#provokasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#puasa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#punya_ibu_negara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#punya_nyali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#punya_pengalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#punya_prestasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pura_pura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#putra_terbaik_bangsa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#radikal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rajin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rakus_lahan_negara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ramah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reformasi_politik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rekam_jejak_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rekam_jejak_bersih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rekam_jejak_mulus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#religius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rendah_hati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#respon_cepat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rezim_pengancam_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rupiah_jadi_jago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rupiah_keok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sabar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sangar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sederhana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#segudang_prestasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sektor_pariwisata_naik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sektor_wisata_semakin_maju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#semakin_maju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#semangat_bekerja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sembako_stabil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#semua_mahal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#setia_pada_nkri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shalat_lima_waktu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sibuk_kerja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#simpati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sontoloyo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stop_membebaskan_teroris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sudah_bangun_indonesia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suka_blusukan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suka_marah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#suka_menghasut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#taat_beribadah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#taat_hukum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tahan_banting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tahun_lalu_php"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tanpa_batas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tegas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tempramental"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tenggang_rasa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terbukti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terbukti_jalankan_UU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terbukti_kepemimpinan_baik"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terbukti_kinerja_sebelumnya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#teroris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#terorisme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tersenyum_ramah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#teruji_prestasinya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_ada_batas_diri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_ada_proyek_mangkrak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_adil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_akan_tabrak_hukum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_anti_dikoreksi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_anti_koreksi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_becus_kerja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_berkualitas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_bermutu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_berpengalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_berperikemanusiaan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_berwibawa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_bijaksana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_bisa_kerja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_diragukan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_emosi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_jelas_islamnya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_jelas_keluarganya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_khawatir_berbeda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_kkn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_koordinasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_korupsi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_langgar_janji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_marah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_mau_bersalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_memanfaakan_kekuasaan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_menghargai_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_menutup_mata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_merasa_paling_hebat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_mikir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_neko_neko"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_paham_hukum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_peduli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_peka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_pengalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_pernah_gombal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_pernah_menyerang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_pilih_pilih"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_punya_ibu_negara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_punya_pengalaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_sinkron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_suka_marah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_tahu_hukum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidak_tegas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tiket_mahal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tiket_normal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tolol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tukang_bohong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tukang_fitnah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tukang_nyontek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tulus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turun_pelosok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#umbar_janji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#untuk_rakyat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zakat"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Empati"/>
+        <Class IRI="#AspekPaslon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empati"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Negatif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Empati"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Positif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integritas"/>
+        <Class IRI="#AspekPaslon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integritas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Negatif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integritas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Positif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kompetensi"/>
+        <Class IRI="#AspekPaslon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kompetensi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Negatif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kompetensi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Positif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negatif"/>
+        <Class IRI="#Sentimen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negatif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#Empati"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negatif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#Integritas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negatif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#Kompetensi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negatif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#RepresentasiSosial"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positif"/>
+        <Class IRI="#Sentimen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#Empati"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#Integritas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#Kompetensi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positif"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityBy"/>
+            <Class IRI="#RepresentasiSosial"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RepresentasiSosial"/>
+        <Class IRI="#AspekPaslon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RepresentasiSosial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Negatif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RepresentasiSosial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PolarityIs"/>
+            <Class IRI="#Positif"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AspekPaslon"/>
+        <Class IRI="#Sentimen"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#ada_untuk_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#ada_untuk_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#adil_makmur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#adil_makmur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#akrab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#akrab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#amanah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#amanah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#ambisius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#ambisius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#antek_asing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#antek_asing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#antek_cina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#antek_cina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#anti_islam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#anti_islam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#anti_kebhinekaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#anti_kebhinekaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#anti_pancasila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#anti_pancasila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#apbn_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#apbn_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#banyak_berjanji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#banyak_berjanji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#banyak_kebohongan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#banyak_kebohongan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#banyak_prestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#banyak_prestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#banyak_prestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#bapak_pembangunan_indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bapak_pembangunan_indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#bawa_aspirasi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bawa_aspirasi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#beban_hutang_jadi_banyak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#beban_hutang_jadi_banyak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#belum_terselesaikan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#belum_terselesaikan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berakhlak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berakhlak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#berani_memimpin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berani_memimpin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#berantas_narkoba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berantas_narkoba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#beras_import"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#beras_import"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#berbelas_kasihan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berbelas_kasihan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berdasarkan_data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berdasarkan_data"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#berenergi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berenergi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berhasil_mendidik_anak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#berhasil_mendidik_anak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#beri_bukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#beri_bukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#beri_bukti_bukan_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#beri_bukti_bukan_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berideologi_pancasila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#berideologi_pancasila"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berintegritas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berintegritas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berita_bohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#berita_bohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berkarakter_kuat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berkarakter_kuat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berkelas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berkelas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#bermoral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bermoral"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berpengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#berpengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#berpengalaman_nambah_hutang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berpengalaman_nambah_hutang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#berpengalaman_nambah_hutang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berpotensi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berpotensi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berprestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#berprestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#bersahabat_dengan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bersahabat_dengan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#bersahaja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bersahaja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#bersalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bersalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#bersyukur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bersyukur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#bertegur_sapa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bertegur_sapa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#berwibawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#berwibawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#bijaksana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bijaksana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#bikin_nyaman_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bikin_nyaman_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#bisa_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#bisa_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#bpjs_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#bpjs_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#cerdas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#cerdas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#cerdik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#cerdik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#cinta_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#cinta_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#cintanya_menyebar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#cintanya_menyebar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#citra_yang_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#citra_yang_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#dekat_dengan_siapapun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#dekat_dengan_siapapun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#demi_nkri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#demi_nkri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#dengan_dengan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#dengan_dengan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#dengan_hati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#dengan_hati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#deradikalisasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#deradikalisasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#didikte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#didikte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#dirasakan_langsung_manfaatnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#dirasakan_langsung_manfaatnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#dirubung_bukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#dirubung_bukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#diskriminasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#diskriminasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#distribusi_antar_pulau_belum_digarap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#distribusi_antar_pulau_belum_digarap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#dobol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#dobol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#dusta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#dusta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#dzolim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#dzolim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#ekonomi_kuat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#ekonomi_kuat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#ekonomi_menguasai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#ekonomi_menguasai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#emosi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#emosi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#emosional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#emosional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#fitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#fitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#garam_import"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#garam_import"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#garang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#garang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#garis_kemiskinan_terendah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#garis_kemiskinan_terendah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#gdp_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#gdp_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#giat_membangun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#giat_membangun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#goblok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#goblok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#grasa_grusu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#grasa_grusu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#hadir_di_tengah_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#hadir_di_tengah_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#hanya_boneka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#hanya_boneka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#hanya_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#hanya_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#hanya_meneruskan_program"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#hanya_meneruskan_program"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#harapan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#harapan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#harga_bbm_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#harga_bbm_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#harga_tidak_terjangkau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#harga_tidak_terjangkau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#harga_tiket_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#harga_tiket_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#hasil_kerja_bagus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#hasil_kerja_bagus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#hati_mulia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#hati_mulia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#hobi_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#hobi_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#hutang_besar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#hutang_besar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#hutang_negara_banyak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#hutang_negara_banyak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#iba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#iba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#ibadah_haji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#ibadah_haji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#ikhlas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#ikhlas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#indonesia_diakui_dunia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#indonesia_diakui_dunia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#indonesia_jadi_makin_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#indonesia_jadi_makin_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#indonesia_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#indonesia_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#indonesia_makin_sejahtera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#indonesia_makin_sejahtera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#industri_berkembang_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#industri_berkembang_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#industri_indonesia_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#industri_indonesia_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#infastruktur_sampai_keseluruh_pelosok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#infastruktur_sampai_keseluruh_pelosok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#infrastruktur_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#infrastruktur_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#ingat_pada_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#ingat_pada_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#isis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#isis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#islami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#islami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#jakarta_belum_tuntas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#jakarta_belum_tuntas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#jalur_semua_segi_berjalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jalur_semua_segi_berjalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#janji_palsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#janji_palsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#janji_tidak_dipenuhi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#janji_tidak_dipenuhi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#janji_tidak_ditepati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#janji_tidak_ditepati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#jauh_dari_inflasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jauh_dari_inflasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#jauh_dari_kemewahan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jauh_dari_kemewahan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jelas_islamnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#jelas_islamnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jelas_keluarganya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#jelas_keluarganya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#jelas_kinerjanya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jelas_kinerjanya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jelas_pengalamannya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#jelas_pengalamannya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#jual_agama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#jual_agama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#juara_korupsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#juara_korupsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#jujur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#jujur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kabinet_korup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#kabinet_korup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#kafir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#kafir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kalangan_biasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#kalangan_biasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#kampanye_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#kampanye_hoax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#keadaan_ekonomi_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#keadaan_ekonomi_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#keadilan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#keadilan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#kejujuran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kejujuran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kenaikan_rupiah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kenaikan_rupiah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#kenal_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kenal_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#kepentingan_rakyat_diatas_kepentingan_priibadi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kepentingan_rakyat_diatas_kepentingan_priibadi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#kepo_kebutuhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kepo_kebutuhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#keputusan_bisa_dipercaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#keputusan_bisa_dipercaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#keputusan_kontroversial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#keputusan_kontroversial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#keren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#keren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kerja_inisiatif"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kerja_inisiatif"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kerja_keras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kerja_keras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kerja_lebih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kerja_lebih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#kerja_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kerja_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kerja_terbukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#kerja_terbukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kerusakan_pada_nkri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#kerusakan_pada_nkri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#kesederhanaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kesederhanaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kesejahteraan_masyarakat_meningkat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kesejahteraan_masyarakat_meningkat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kesejahteraan_petani_meningkat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kesejahteraan_petani_meningkat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kinerja_menarik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kinerja_menarik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#kinerja_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#kinerja_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#kkn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#kkn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#konsisten"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#korupsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#korupsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#koruptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#koruptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#labil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#labil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#layak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#layak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#layak_memimpin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#layak_memimpin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#lembut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#lembut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#logis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#logis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#lugu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#lugu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#makassar_jadi_keren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#makassar_jadi_keren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#mampu_mengurangi_kemiskinan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mampu_mengurangi_kemiskinan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mantul_prestasinya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#mantul_prestasinya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mau_bersalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mau_bersalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#melayani_publik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#melayani_publik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#melayani_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#melayani_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#melindungi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#melindungi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#melukai_perasaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#memahami_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memahami_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#membahayakan_keamanan_nasional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#membahayakan_keamanan_nasional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#membangun_indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#membangun_indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#membangun_integritas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#membangun_integritas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#membangun_jalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#membangun_jalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#membangun_papua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#membangun_papua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#membangun_silaturahmi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#membangun_silaturahmi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#membaur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#membaur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#memberi_solusi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memberi_solusi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memberikan_kepuasaan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#memberikan_kepuasaan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#memenuhi_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memenuhi_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#memikirkan_kepentingan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memikirkan_kepentingan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#memiliki_misi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memiliki_misi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#memiliki_visi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memiliki_visi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memimpin_dari_bawah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#memimpin_dari_bawah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#memimpin_indonesia_keseluruhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memimpin_indonesia_keseluruhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#memperhatikan_nasib_petani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memperhatikan_nasib_petani"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#memperhatikan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memperhatikan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#memposisikan_diri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memposisikan_diri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#memuliakan_ulama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#memuliakan_ulama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#menakuti_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#menambah_terminal_bandara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menambah_terminal_bandara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#mencla_mencle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#mencla_mencle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#menculik_aktivis98"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#menculik_aktivis98"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mendengar_keinginan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mendengar_keinginan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mendengar_keluh_kesah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mendengar_keluh_kesah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mendengarkan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mendengarkan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mengancam_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#menganut_adab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menganut_adab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#mengayomi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mengayomi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#mengembalikan_aset_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mengembalikan_aset_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mengenali_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mengenali_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mengerti_keinginan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mengerti_keinginan_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#mengintimidasi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#mengintimidasi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#mengkokohkan_fundamental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mengkokohkan_fundamental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#menipu_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#menipu_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#menjadi_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menjadi_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#menjaga_budaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menjaga_budaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#menjaga_persatuan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menjaga_persatuan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#menjual_aset_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#menjual_aset_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#mensejahterakan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#mensejahterakan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#menutup_mata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#menutup_mata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#menyasar_koruptor_kelas_kakap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menyasar_koruptor_kelas_kakap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#menyenangkan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menyenangkan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#menyuarakan_masyarakat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#menyuarakan_masyarakat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#merakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#merakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#merealisasikan_kebutuhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#merealisasikan_kebutuhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#merendahkan_martabat_nkri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#milenial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#milenial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#mudah_percaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#negarawan_sejati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#negarawan_sejati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#ngeles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#ngeles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#nggedebrus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#nggedebrus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#olahraga_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#olahraga_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#optimis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#optimis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#orang_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#orang_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pajak_umkm_turun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pajak_umkm_turun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pandai_membangun_silaturahmi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pandai_membangun_silaturahmi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pandai_memilih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pandai_memilih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pantang_menyerah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pantang_menyerah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pantas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pantas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#panutan_bangsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#panutan_bangsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#patriot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#patriot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pecatan_tentara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pecatan_tentara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#pecinta_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pecinta_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#peduli_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#peduli_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#peka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#peka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pekerja_keras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pekerja_keras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pelaku_pelanggaran_ham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pelaku_pelanggaran_ham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pemasangan_listrik_gratis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pemasangan_listrik_gratis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembangunan_desa_jalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_desa_jalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembangunan_digeber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_digeber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembangunan_hingga_pelosok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_hingga_pelosok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembangunan_jalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_jalan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pembangunan_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembangunan_rel_ka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_rel_ka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembangunan_tepat_sasaran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_tepat_sasaran"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembangunan_tidak_ada_yang_mangkrak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembangunan_tidak_ada_yang_mangkrak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pembebasan_teroris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pembebasan_teroris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#pembelaan_bagi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pembelaan_bagi_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pembohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pembohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pemerataan_pembangunan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pemerataan_pembangunan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pemerintahan_tidak_gagal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pemerintahan_tidak_gagal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pemimpin_dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pemimpin_dungu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pemimpin_muslim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pemimpin_muslim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pemimpin_teladan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pemimpin_teladan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pencapaian_kerja_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pencapaian_kerja_nyata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pencitraan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pencitraan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pencitraan_pemilu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pencitraan_pemilu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pendendam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pendendam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#pengalaman_luas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pengalaman_luas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pengawasan_lemah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pengawasan_lemah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pengen_menang_sendiri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pengen_menang_sendiri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#penipu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#penipu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#penjilat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#penjilat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#penyabar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#penyabar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pepesan_kosong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pepesan_kosong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#percaya_diri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#percaya_diri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#perempuan_indonesia_sejahtera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#perempuan_indonesia_sejahtera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#perhatian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#perhatian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#perhatian_besar_pada_santri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#perhatian_besar_pada_santri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#perhatian_pada_santri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#perhatian_pada_santri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#periode_bikin_kecewa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#periode_bikin_kecewa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#perkembangan_ekonomi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#perkembangan_ekonomi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#pesimisme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pesimisme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#php"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#php"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#pilih_pilih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pilih_pilih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#pki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#planga_plongo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#planga_plongo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#plin_plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#plin_plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#presiden_gagal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#presiden_gagal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#presiden_terbaik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#presiden_terbaik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#presiden_yang_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#presiden_yang_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#prestasi_hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#prestasi_hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#prestasi_membanggakan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#prestasi_membanggakan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#prestasi_sangat_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#prestasi_sangat_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#prestasi_sudah_dicapai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#prestasi_sudah_dicapai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#prestasinya_hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#prestasinya_hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#produksi_beras_surplus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#produksi_beras_surplus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#program_berhasil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#program_berhasil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#program_terbukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#program_terbukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#program_terealisasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#program_terealisasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#program_terlaksana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#program_terlaksana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#provokasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#provokasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#puasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#puasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#punya_ibu_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#punya_ibu_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#punya_nyali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#punya_nyali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#punya_pengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#punya_pengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#punya_prestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#punya_prestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#pura_pura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#pura_pura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#putra_terbaik_bangsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#putra_terbaik_bangsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#radikal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#radikal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#rajin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#rajin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#rakus_lahan_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#rakus_lahan_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#ramah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#ramah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#reformasi_politik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#reformasi_politik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#rekam_jejak_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#rekam_jejak_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#rekam_jejak_bersih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#rekam_jejak_bersih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#rekam_jejak_mulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#rekam_jejak_mulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#religius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#religius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#rendah_hati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#rendah_hati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#respon_cepat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#respon_cepat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#rezim_pengancam_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#rezim_pengancam_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#rupiah_jadi_jago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#rupiah_jadi_jago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#rupiah_keok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#rupiah_keok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#sabar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sabar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#sangar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sangar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#sederhana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sederhana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#segudang_prestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#segudang_prestasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#sektor_pariwisata_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sektor_pariwisata_naik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#sektor_wisata_semakin_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sektor_wisata_semakin_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#semakin_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#semakin_maju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#semangat_bekerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#semangat_bekerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#sembako_stabil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sembako_stabil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#semua_mahal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#semua_mahal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#setia_pada_nkri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#setia_pada_nkri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#shalat_lima_waktu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#shalat_lima_waktu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#sibuk_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sibuk_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#simpati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#simpati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#sontoloyo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#sontoloyo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#stop_membebaskan_teroris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#stop_membebaskan_teroris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#sudah_bangun_indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#sudah_bangun_indonesia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#suka_blusukan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#suka_blusukan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#suka_marah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#suka_marah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#suka_menghasut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#suka_menghasut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#taat_beribadah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#taat_beribadah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#taat_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#taat_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tahan_banting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tahan_banting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tahun_lalu_php"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tahun_lalu_php"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tanpa_batas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tegas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tegas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tempramental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tempramental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tenggang_rasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tenggang_rasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#terbukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#terbukti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#terbukti_jalankan_UU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#terbukti_jalankan_UU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#terbukti_kepemimpinan_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#terbukti_kepemimpinan_baik"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#terbukti_kinerja_sebelumnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#terbukti_kinerja_sebelumnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#teroris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#teroris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#terorisme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#terorisme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tersenyum_ramah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tersenyum_ramah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#teruji_prestasinya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#teruji_prestasinya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_ada_batas_diri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_ada_batas_diri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tidak_ada_proyek_mangkrak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_ada_proyek_mangkrak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_adil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_adil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tidak_akan_tabrak_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_akan_tabrak_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_anti_dikoreksi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_anti_dikoreksi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_anti_koreksi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_anti_koreksi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_becus_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_becus_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tidak_berkualitas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_berkualitas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tidak_bermutu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_bermutu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_berpengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tidak_berpengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_berperikemanusiaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_berperikemanusiaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_berwibawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_berwibawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_bijaksana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_bijaksana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tidak_bisa_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_bisa_kerja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_diragukan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tidak_diragukan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_emosi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_emosi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_jelas_islamnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tidak_jelas_islamnya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_jelas_keluarganya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tidak_jelas_keluarganya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_khawatir_berbeda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_khawatir_berbeda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_kkn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_kkn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_koordinasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_korupsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_korupsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_langgar_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_langgar_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_marah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tidak_mau_bersalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_mau_bersalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_memanfaakan_kekuasaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_memanfaakan_kekuasaan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tidak_menghargai_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_menghargai_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tidak_menutup_mata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_menutup_mata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_merasa_paling_hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_merasa_paling_hebat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tidak_mikir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_mikir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_neko_neko"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_neko_neko"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_paham_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_paham_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tidak_peduli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_peduli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tidak_peka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_peka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_pengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tidak_pengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_pernah_gombal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_pernah_gombal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_pernah_menyerang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_pernah_menyerang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tidak_pilih_pilih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_pilih_pilih"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_punya_ibu_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tidak_punya_ibu_negara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_punya_pengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#tidak_punya_pengalaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_sinkron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_sinkron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_suka_marah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tidak_suka_marah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tidak_tahu_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_tahu_hukum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tidak_tegas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tidak_tegas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tiket_mahal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tiket_mahal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tiket_normal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#tiket_normal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kompetensi"/>
+        <NamedIndividual IRI="#tolol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tolol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tukang_bohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tukang_bohong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tukang_fitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tukang_fitnah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#tukang_nyontek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#tukang_nyontek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#tulus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#turun_pelosok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#turun_pelosok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integritas"/>
+        <NamedIndividual IRI="#umbar_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negatif"/>
+        <NamedIndividual IRI="#umbar_janji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Empati"/>
+        <NamedIndividual IRI="#untuk_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#untuk_rakyat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positif"/>
+        <NamedIndividual IRI="#zakat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RepresentasiSosial"/>
+        <NamedIndividual IRI="#zakat"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#PolarityIs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

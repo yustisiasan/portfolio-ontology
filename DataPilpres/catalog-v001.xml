@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1562176072845" name="http://www.semanticweb.org/acer/ontologies/2019/4/PilpresPre" uri="PilpresPre.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562176072845" name="duplicate:http://www.semanticweb.org/acer/ontologies/2019/4/TAPilpres" uri="TA%20Pilpres.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562176072845" name="duplicate:http://www.semanticweb.org/acer/ontologies/2019/4/TAPilpres" uri="TAPilpres1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562176072845" name="http://www.semanticweb.org/piiik98/ontologies/2018/6/untitled-ontology-21" uri="TA.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562176072845" name="duplicate:http://www.w3.org/2002/07/owl" uri="kelas.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562176072845" name="duplicate:http://www.w3.org/2002/07/owl" uri="penilaian.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1562176072845" name="duplicate:http://www.w3.org/2002/07/owl" uri="TAPilpres.owl"/>
+    </group>
+</catalog>

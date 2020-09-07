@@ -1,0 +1,2 @@
+orientasi semantik: Pandangan yang mendasari pikiran berdasarkan ilmu tentang makna kata dan kalimat.
+model bag-of-words: Representasi penyederhanaan yang digunakan dalam pemrosesan bahasa alami dan pengambilan informasi (IR). Dalam model ini, sebuah teks (seperti kalimat atau dokumen) direpresentasikan sebagai tas (multiset) dari kata-katanya, mengabaikan tata bahasa dan bahkan urutan kata tetapi menjaga keserbaragaman.
